@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,600&display=swap");
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(76.85deg, #1c1c1c 26.26%, #363636 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  padding: 64px;
+  background: #ecf4ff;
+  color: #1c1c1d;
+  border-radius: 20px;
+  margin: 80px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  max-height: 160px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.titulo {
+  margin-left: 20px;
+  h1 {
+    font-weight: 700;
+  }
+  h3 {
+    font-weight: 400;
+  }
+}
+
+.projetos {
+  max-height: 300px;
+  overflow-y: scroll;
+  margin-top: 20px;
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  padding: 1px 20px;
+  background: linear-gradient(76.85deg, #1c1c1c 26.26%, #363636 96.03%);
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  a {
+    font-size: 1.1em;
+    color: #white;
+    font-weight: 500;
+  }
+  :hover {
+    color: #white;
+    font-weight: 500;
+  }
+}
+
+.calculadora {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.projetos p {
+  color: #ecf4ff;
+  font-weight: 400;
+}
+
+.tema button {
+  align-self: flex-end;
+  margin-left: 130px;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0e1d2f;
+}
+
+.projetos ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.projetos li {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 2em;
+}
+
+.dark {
+  background: #ecf4ff;
+}
+
+.dark .projetos {
+  background: #ecf4ff;
+  color: #1c1c1d;
+}
+
+.dark .projetos p {
+  color: #1c1c1d;
+}
+
+.dark .container {
+  background: linear-gradient(76.85deg, #1c1c1c 26.26%, #363636 96.03%);
+  color: #f6f6f6;
+}
+
+.dark .portfolio {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  color: #ffffff;
+  background: #363636;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #f7f7f7;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1c1c1c;
+  border: 1.8px solid #1c1c1c;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ecf4ff;
+}
+
+::-webkit-scrollbar-track {
+  background: #ecf4ff;
+  border-radius: 100px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+  margin: 15px 0px;
+}
